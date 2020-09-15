@@ -1,0 +1,37 @@
+
+    public class HelloWorld{
+
+     public static void main(String []args){
+    String mohammed = ("مبروك يا محمد يمكنك الحصول على رخصه القياده");   
+    String hm = ("للأسف يا محمد لا يمكنك الحصول على رخصه القياده") ;
+    
+    
+    
+    
+      
+    int age = 22;
+   String name = "mohammed";
+    int x =18;
+ m( age, x ,hm,mohammed) ;
+      
+     
+}
+   public static void  m (int age,int x,String hm,String mohammed){
+   //if(age>x)
+   // return  ("مبروك يا  محمد يمكنك الحصول على رخصه قياده")    ;  
+   // else 
+   // return ("للأسف يا محمد ما زلت صغيرا للحصول على رخصه قياده");
+    for (int y = 0 ; y<3;y++){
+    
+     if(age>x) 
+     System.out.println ( mohammed)    ;  
+    else 
+    System.out.println(hm );   
+     
+        
+    }
+     
+ 
+   } 
+    }
+
